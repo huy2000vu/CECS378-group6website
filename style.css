@@ -1,0 +1,51 @@
+
+body{
+    background-color: #202020;
+    color:white;
+    font-family: "spotifyFont", "consolas";
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: sans-serif;
+}
+nav ul li{
+    padding: 0 12px;
+    font-size: 2.5rem;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height: 100px;
+    background-color: black;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+h1{
+    text-align: center;
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: whitesmoke;
+    margin: 30px 0 50px;
+}
+.Ads{
+    margin: 10px 50px;
+}
+.Ads img a{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    /*filter: blur(1px);*/
+    border: 20px solid  black;
+    transition: 0.5s;
+}
+.Ads img{
+    /*filter:blur(0px);*/
+    transform:scale(1.1);
+}
